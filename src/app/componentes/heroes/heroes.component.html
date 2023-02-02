@@ -1,0 +1,5 @@
+<h1>Heroes<small>Marbel & DC</small></h1>
+<hr>
+<div class="card-columns">
+  <app-heroe-tarjeta [heroe]="elemento" [idHeroe]="idElemento" *ngFor="let elemento of heroes; let idElemento = index"></app-heroe-tarjeta>
+</div>
